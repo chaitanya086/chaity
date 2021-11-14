@@ -131,11 +131,6 @@ class Login extends Component {
     const {showSubmitError, errorMsg} = this.state
     return (
       <div className="login-form-container">
-        <img
-          src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
-          className="login-website-logo-mobile-image"
-          alt="website logo"
-        />
         <form className="form-container" onSubmit={this.submitForm}>
           <img
             src="https://res.cloudinary.com/dwyoocqij/image/upload/v1632727627/Vector_ibzmon.png"

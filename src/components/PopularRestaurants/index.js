@@ -128,8 +128,9 @@ class PopularRestaurants extends Component {
             <RiArrowDropLeftLine className="arrow" />
           </button>
           <h1 testid="active-page-number" className="page-numbers">
-            {activePage} of 20
+            {activePage}
           </h1>
+          of 20
           <button
             testid="pagination-right-button"
             className="button"
